@@ -3,7 +3,9 @@
 Official repository for the KITS token and on-chain proofs.
 
 ## Contracts
-- **Token (BEP-20)**: `0x8d7dEAD5a957a2F9aa87b4DB9a723bee09cD3E65`
+- **Token (BEP-20)**: [`0x8d7dEAD5a957a2F9aa87b4DB9a723bee09cD3E65`](https://bscscan.com/token/0x8d7dEAD5a957a2F9aa87b4DB9a723bee09cD3E65)
+- Source (Solidity): [`contracts/MemeTokenPro.sol`](contracts/MemeTokenPro.sol)  
+- **Compiler**: Solidity 0.8.20 · EVM: Paris · Optimizer: enabled (200 runs)
 
 ## Liquidity Proof
 - **Pair (Pancake V2 LP)**  
