@@ -14,5 +14,13 @@ jobs:
           TAG:  ${{ github.event.release.tag_name }}
           URL:  ${{ github.event.release.html_url }}
         run: |
-            payload=$(printf '{"content":"📦 New release **%s %s**"}' "$REPO" "$TAG")
-            curl -sS -H "Content-Type: application/json" -d "$payload" "$WEBHOOK"
+          # ← ここから下、スペースでインデント（タブ禁止）
+          NAME="${REPO#*/}"
+          TITLE="New release: ${NAME} ${TAG}"
+
+          # jq で JSON を安全に生成（クオート問題を根絶）
+          jq -n \
+            --arg title "$TITLE" \
+            --arg url   "$URL" \
+            '{embeds:[{title:$title, url:$url, color:16098851}]}' \
+          | curl -sS -H "Content-Type: application/json" -d @- "$WEBHOOK"
