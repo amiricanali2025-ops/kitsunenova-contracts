@@ -6,6 +6,9 @@ Official repository for the KITS token and on-chain proofs.
 - **Token (BEP-20)**: [`0x8d7dEAD5a957a2F9aa87b4DB9a723bee09cD3E65`](https://bscscan.com/token/0x8d7dEAD5a957a2F9aa87b4DB9a723bee09cD3E65)
 - Source (Solidity): [`contracts/MemeTokenPro.sol`](contracts/MemeTokenPro.sol)  
 - **Compiler**: Solidity 0.8.20 · EVM: Paris · Optimizer: enabled (200 runs)
+- ABI (JSON): [`abi/KITS.json`](abi/KITS.json) ·
+  [Raw](https://raw.githubusercontent.com/amiricanali2025-ops/kitsunenova-contracts/refs/heads/main/abi/KITS.json)
+
 
 ## Liquidity Proof
 - **Pair (Pancake V2 LP)**  
