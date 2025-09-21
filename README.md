@@ -33,5 +33,10 @@ Official repository for the KITS token and on-chain proofs.
 - **Telegram (Announcements)**: https://t.me/kitsunenovaHQ  
 - **Telegram (Chat)**: https://t.me/kitsunenova_chat
 
+## Docs & Socials
+- **Official Links (all in one):** https://kitsunenova.gitbook.io/kitsunenova-docs/official-links
+
+
+
 ## License
 MIT
